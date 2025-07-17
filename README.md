@@ -43,7 +43,7 @@ WorkflowEngine/
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/workflow-engine.git
+   git clone https://github.com/Kailashsharma282/workflow-engine.git
 Open WorkflowEngine.sln in Visual Studio
 
 Restore NuGet packages (automatic in VS2022)
@@ -91,15 +91,15 @@ stateDiagram-v2
 ```
 Testing in Visual Studio
 
-Set breakpoints in WorkflowService.cs
+1. Set breakpoints in WorkflowService.cs
 
-Use Test Explorer (Ctrl+E,T) for unit tests
+2. Use Test Explorer (Ctrl+E,T) for unit tests
 
-Debug API requests with:
+3. Debug API requests with:
 
-REST Client (Add *.http file)
+    .REST Client (Add *.http file)
 
-Postman integration
+    .Postman integration
 
 Troubleshooting Issue	Solution
 ---
@@ -109,19 +109,5 @@ CS8618 warnings	Ensure all required fields are initialized
 ---
 HTTPS errors	``Run dotnet dev-certs https --trust``
 ---
-Roadmap
-Add Entity Framework Core persistence
 
-Implement JWT authentication
-
-Add SignalR real-time updates
-
-Docker containerization
-
-Contributing
-Create feature branch (git checkout -b feature/xyz)
-
-Commit changes (git commit -am 'Add feature xyz')
-
-Push to branch (git push origin feature/xyz)
 
